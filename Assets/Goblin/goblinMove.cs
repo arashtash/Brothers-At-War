@@ -7,13 +7,17 @@ public class GoblinMove : MonoBehaviour
     public float speed = 5.0f;
     public GameObject[] waypoints;
 
+    private int soundTimer = 120;
+    bool soundCanBePlayed = true;
     private int counter = 0;
     private Animation goblinAnimation;
+    AudioManager audiomanager;
 
     // Start is called before the first frame update
     void Start()
     {
         goblinAnimation = GetComponent<Animation>(); // Get the Animation component
+        audiomanager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>(); // Get the audio manager component
     }
 
     // Update is called once per frame
@@ -53,7 +57,24 @@ public class GoblinMove : MonoBehaviour
         }
         else
         {
-            goblinAnimation.CrossFade("idle"); // Stop running when at the last waypoint
+            goblinAnimation.CrossFade("attack1"); // last waypoint is castle, attack the castle
+
+            // Play sound if sound can be played
+            if (soundCanBePlayed)
+            {
+                audiomanager.PlaySFX(audiomanager.goblinAttack); //play attack sound when hitting castle
+                soundTimer = 450;
+                soundCanBePlayed = false;
+            }
+
+            // decrement timer until timer can be played
+            if (soundTimer > 0)
+            {
+                soundTimer--;
+            } else if (soundTimer <= 0)
+            {
+                soundCanBePlayed = true;
+            }
         }
     }
 }
