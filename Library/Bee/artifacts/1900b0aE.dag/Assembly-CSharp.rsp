@@ -353,8 +353,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Goblin/enemyHealth.cs"
+"Assets/Goblin/enemyMove.cs"
 "Assets/Goblin/FloatingHealthBar.cs"
-"Assets/Goblin/goblinMove.cs"
 "Assets/Music/AudioManager.cs"
 "Assets/Scripts/PlayerControl.cs"
 -langversion:9.0

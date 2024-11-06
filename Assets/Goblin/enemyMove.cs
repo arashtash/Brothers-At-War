@@ -2,21 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GoblinMove : MonoBehaviour
+public class EnemyMove : MonoBehaviour
 {
+
     public float speed = 5.0f;
     public GameObject[] waypoints;
 
+    //animation variables
+    private Animation animation;
+
+    //sound variables
     private int soundTimer = 120;
     bool soundCanBePlayed = true;
     private int counter = 0;
-    private Animation goblinAnimation;
     AudioManager audiomanager;
 
     // Start is called before the first frame update
     void Start()
     {
-        goblinAnimation = GetComponent<Animation>(); // Get the Animation component
+        animation = GetComponent<Animation>(); // Get the Animation component
         audiomanager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>(); // Get the audio manager component
     }
 
@@ -48,21 +52,25 @@ public class GoblinMove : MonoBehaviour
             // Change animation based on movement
             if (Vector3.Distance(transform.position, targetWaypoint.position) > 0.1f)
             {
-                goblinAnimation.CrossFade("run"); // Play running animation
+                animation.CrossFade("run"); // Play running animation
             }
             else
             {
-                goblinAnimation.CrossFade("idle"); // Play idle animation when stopping
+                animation.CrossFade("idle"); // Play idle animation when stopping
             }
         }
         else
         {
-            goblinAnimation.CrossFade("attack1"); // last waypoint is castle, attack the castle
+            animation.CrossFade("attack1"); // last waypoint is castle, attack the castle
 
             // Play sound if sound can be played
             if (soundCanBePlayed)
             {
-                audiomanager.PlaySFX(audiomanager.goblinAttack); //play attack sound when hitting castle
+                //play attack sound when hitting castle
+                if (gameObject.tag == "Goblin")
+                {
+                    audiomanager.PlaySFX(audiomanager.goblinAttack);
+                }
                 soundTimer = 450;
                 soundCanBePlayed = false;
             }
