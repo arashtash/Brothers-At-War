@@ -4,8 +4,8 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerControl : MonoBehaviour
 {
-    private float speed = 3.0f;
-    private float jumpSpeed = 10.0f;
+    private float speed = 10.0f;
+    private float jumpSpeed = 7.5f;
     private float gravity = 10.0f;
 
     private Vector3 moveDirection = Vector3.zero;
