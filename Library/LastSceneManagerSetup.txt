@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Fantasy knight/Fantasy knight.unity
+- path: Assets/Scenes/towerShootingTest.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

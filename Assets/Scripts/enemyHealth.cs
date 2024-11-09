@@ -22,7 +22,7 @@ public class enemyHealth : MonoBehaviour
         healthBar.UpdateHealthBar(health, maxHealth);
     }
 
-    void TakeDamage(float damage)
+    public void TakeDamage(float damage)
     {
         health = health - damage;
         healthBar.UpdateHealthBar(health, maxHealth);

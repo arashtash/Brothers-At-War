@@ -4,23 +4,19 @@ using UnityEngine;
 
 public class EnemyMove : MonoBehaviour
 {
-
     public float speed = 5.0f;
     public GameObject[] waypoints;
 
-    //animation variables
-    private Animation animation;
-
-    //sound variables
     private int soundTimer = 120;
     bool soundCanBePlayed = true;
     private int counter = 0;
+    private Animation enemyAnimation;
     AudioManager audiomanager;
 
     // Start is called before the first frame update
     void Start()
     {
-        animation = GetComponent<Animation>(); // Get the Animation component
+        enemyAnimation = GetComponent<Animation>(); // Get the Animation component
         audiomanager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>(); // Get the audio manager component
     }
 
@@ -52,25 +48,21 @@ public class EnemyMove : MonoBehaviour
             // Change animation based on movement
             if (Vector3.Distance(transform.position, targetWaypoint.position) > 0.1f)
             {
-                animation.CrossFade("run"); // Play running animation
+                enemyAnimation.CrossFade("run"); // Play running animation
             }
             else
             {
-                animation.CrossFade("idle"); // Play idle animation when stopping
+                enemyAnimation.CrossFade("idle"); // Play idle animation when stopping
             }
         }
         else
         {
-            animation.CrossFade("attack1"); // last waypoint is castle, attack the castle
+            enemyAnimation.CrossFade("attack1"); // last waypoint is castle, attack the castle
 
             // Play sound if sound can be played
             if (soundCanBePlayed)
             {
-                //play attack sound when hitting castle
-                if (gameObject.tag == "Goblin")
-                {
-                    audiomanager.PlaySFX(audiomanager.goblinAttack);
-                }
+                audiomanager.PlaySFX(audiomanager.goblinAttack); //play attack sound when hitting castle
                 soundTimer = 450;
                 soundCanBePlayed = false;
             }
@@ -79,7 +71,8 @@ public class EnemyMove : MonoBehaviour
             if (soundTimer > 0)
             {
                 soundTimer--;
-            } else if (soundTimer <= 0)
+            }
+            else if (soundTimer <= 0)
             {
                 soundCanBePlayed = true;
             }
