@@ -404,6 +404,7 @@
 "Assets/Scripts/PlayerControl.cs"
 "Assets/Scripts/TowerHealth.cs"
 "Assets/Scripts/turretShoot.cs"
+"Assets/Scripts/wardingTower.cs"
 -langversion:9.0
 /deterministic
 /optimize+

@@ -10,6 +10,7 @@ public class TurretShoot : MonoBehaviour
     public float bulletSpeed = 10f;         // Bullet speed
     private GameObject target;              // The current target (enemy)
     private List<GameObject> enemies;       // List of enemies in range
+    public float bulletDamage = 5.0f;       // damage dealt by the bullet fired by this tower
 
     // Start is called before the first frame update
     void Start()
@@ -71,6 +72,7 @@ public class TurretShoot : MonoBehaviour
         Bullet bulletScript = bullet.AddComponent<Bullet>();
         bulletScript.SetTarget(target);
         bulletScript.SetSpeed(bulletSpeed);
+        bulletScript.SetDamage(bulletDamage); // Pass bullet damage to the bullet script
     }
 
     // Bullet script that makes the bullet move towards the target
@@ -78,6 +80,7 @@ public class TurretShoot : MonoBehaviour
     {
         private GameObject target;
         private float speed;
+        private float bulletDamage;
 
         // Set the target for the bullet
         public void SetTarget(GameObject newTarget)
@@ -89,6 +92,12 @@ public class TurretShoot : MonoBehaviour
         public void SetSpeed(float bulletSpeed)
         {
             speed = bulletSpeed;
+        }
+
+        // Set the damage for the bullet
+        public void SetDamage(float damage)
+        {
+            bulletDamage = damage;
         }
 
         // Update is called once per frame
@@ -107,7 +116,7 @@ public class TurretShoot : MonoBehaviour
                     enemyHealth healthScript = target.GetComponent<enemyHealth>();
                     if (healthScript != null)
                     {
-                        healthScript.TakeDamage(10);  // Pass the damage amount (e.g., 10)
+                        healthScript.TakeDamage(bulletDamage);  // Pass the damage amount (e.g., 5)
                     }
 
                     // Destroy the bullet after hitting the target
@@ -130,7 +139,7 @@ public class TurretShoot : MonoBehaviour
                 enemyHealth healthScript = collision.gameObject.GetComponent<enemyHealth>();
                 if (healthScript != null)
                 {
-                    healthScript.TakeDamage(10);  // Apply damage, adjust the value as needed
+                    healthScript.TakeDamage(bulletDamage);  // Apply damage, adjust the value as needed
                 }
 
                 // Destroy the bullet after dealing damage

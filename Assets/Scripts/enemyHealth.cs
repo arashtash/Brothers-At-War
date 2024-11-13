@@ -6,12 +6,13 @@ public class enemyHealth : MonoBehaviour
 {
     public float health = 100f;
     public float maxHealth = 100f;
+    public float damageMult = 1.0f;
 
     [SerializeField] FloatingHealthBar healthBar;
 
-
     private void Awake()
     {
+        // Ensures healthBar is found as a child object
         healthBar = GetComponentInChildren<FloatingHealthBar>();
     }
 
@@ -19,13 +20,27 @@ public class enemyHealth : MonoBehaviour
     void Start()
     {
         health = maxHealth;
-        healthBar.UpdateHealthBar(health, maxHealth);
+        // Ensure healthBar is not null before trying to update it
+        if (healthBar != null)
+        {
+            healthBar.UpdateHealthBar(health, maxHealth);
+        }
     }
 
     public void TakeDamage(float damage)
     {
-        health = health - damage;
-        healthBar.UpdateHealthBar(health, maxHealth);
+        // Apply the damage multiplier after subtracting the damage
+        health -= damage * damageMult;
+
+        // Ensure health doesn't go below 0
+        health = Mathf.Max(health, 0f);
+
+        // Update health bar if the health bar exists
+        if (healthBar != null)
+        {
+            healthBar.UpdateHealthBar(health, maxHealth);
+        }
+
         if (health <= 0)
         {
             Die();
@@ -34,12 +49,7 @@ public class enemyHealth : MonoBehaviour
 
     void Die()
     {
+        // Optionally, you could add some delay here for animations or effects
         Destroy(gameObject);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
