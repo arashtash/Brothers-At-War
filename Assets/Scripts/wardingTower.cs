@@ -8,10 +8,10 @@ public class wardingTower : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // Check if the object entering the trigger is a Goblin
-        if (other.CompareTag("Goblin"))
+        // Check if the object entering the trigger is a Goblin or Orc
+        if (other.CompareTag("Goblin") || other.CompareTag("Orc"))
         {
-            // Get the enemyHealth component from the Goblin
+            // Get the enemyHealth component from the Goblin or Orc
             enemyHealth healthScript = other.GetComponent<enemyHealth>();
 
             // Apply the damage multiplier to the enemy's damage
@@ -21,10 +21,10 @@ public class wardingTower : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        // Check if the object exiting the trigger is a Goblin
-        if (other.CompareTag("Goblin"))
+        // Check if the object exiting the trigger is a Goblin or Orc
+        if (other.CompareTag("Goblin") || other.CompareTag("Orc"))
         {
-            // Get the enemyHealth component from the Goblin
+            // Get the enemyHealth component from the Goblin or Orc
             enemyHealth healthScript = other.GetComponent<enemyHealth>();
 
             // Reset the damage multiplier to its original value

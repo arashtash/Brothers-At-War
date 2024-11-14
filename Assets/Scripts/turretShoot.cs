@@ -46,7 +46,7 @@ public class TurretShoot : MonoBehaviour
     // Add enemy to the list when it enters the turret's trigger range
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Goblin"))
+        if (other.CompareTag("Goblin") || other.CompareTag("Orc"))
         {
             enemies.Add(other.gameObject);
         }
@@ -55,7 +55,7 @@ public class TurretShoot : MonoBehaviour
     // Remove the enemy from the list when it exits the trigger range
     void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Goblin"))
+        if (other.CompareTag("Goblin") || other.CompareTag("Orc"))
         {
             enemies.Remove(other.gameObject);
         }
