@@ -87,4 +87,13 @@ public class PlayerControl : MonoBehaviour
     {
         animator.SetBool("isAttacking", false);
     }
+
+    void OnCollisionEnter(Collision collision){
+        if(collision.gameObject.CompareTag("Goblin")){
+            enemyHealth healthScript = collision.gameObject.GetComponent<enemyHealth>();
+            if(healthScript != null){
+                healthScript.TakeDamage(10);
+            }
+        }
+    }
 }
