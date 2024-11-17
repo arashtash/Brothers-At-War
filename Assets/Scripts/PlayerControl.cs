@@ -57,12 +57,12 @@ public class PlayerControl : MonoBehaviour
 
                 // Move in the target direction
                 moveDirection = targetDirection * speed;
-                animator.SetBool("isWalking", true);
+                //animator.SetBool("isWalking", true);
             }
             else
             {
                 moveDirection = Vector3.zero;
-                animator.SetBool("isWalking", false);
+                //animator.SetBool("isWalking", false);
             }
 
             // Jump logic
