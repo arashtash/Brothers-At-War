@@ -9,6 +9,12 @@ public class BuildZone : MonoBehaviour
 
     private bool playerInRange = false;
 
+
+    void Start(){
+        //buildPromptUI.SetActive(true);
+        buildPromptUI.SetActive(false);
+    }
+
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -36,7 +42,9 @@ public class BuildZone : MonoBehaviour
                 if (Input.GetKeyDown(i.ToString()))
                 {
                     CreateTower(i - 1); // Subtract 1 to match the array index
+                    buildPromptUI.SetActive(false);
                     Destroy(gameObject); // Destroy the build zone after tower creation
+                    
                 }
             }
         }
