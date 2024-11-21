@@ -7,7 +7,7 @@ public class PlayerControl : MonoBehaviour
     private float speed = 10.0f;
     private float jumpSpeed = 7.5f;
     private float gravity = 10.0f;
-    Animator animator;
+    private Animator animator;
 
     private Vector3 moveDirection = Vector3.zero;
     private CharacterController controller;
@@ -28,7 +28,6 @@ public class PlayerControl : MonoBehaviour
             float horizontalInput = Input.GetAxis("Horizontal");
             float verticalInput = Input.GetAxis("Vertical");
 
-            // Determine the target direction based on input
             Vector3 targetDirection = Vector3.zero;
 
             if (verticalInput > 0)
@@ -48,15 +47,14 @@ public class PlayerControl : MonoBehaviour
                 targetDirection = Vector3.left;
             }
 
-            // If there is input, rotate and move in the target direction
             if (targetDirection != Vector3.zero)
             {
                 // Rotate the player towards the target direction
                 Quaternion targetRotation = Quaternion.LookRotation(targetDirection);
                 transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 10);
 
-                // Move in the target direction
                 moveDirection = targetDirection * speed;
+
                 animator.SetBool("isWalking", true);
             }
             else
@@ -86,14 +84,5 @@ public class PlayerControl : MonoBehaviour
     private void ResetAttack()
     {
         animator.SetBool("isAttacking", false);
-    }
-
-    void OnCollisionEnter(Collision collision){
-        if(collision.gameObject.CompareTag("Goblin")){
-            enemyHealth healthScript = collision.gameObject.GetComponent<enemyHealth>();
-            if(healthScript != null){
-                healthScript.TakeDamage(10);
-            }
-        }
     }
 }
