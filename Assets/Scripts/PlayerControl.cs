@@ -4,12 +4,15 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerControl : MonoBehaviour
 {
-    private float speed = 10.0f;
+    private float speed = 10.0f; // Base movement speed
+    private float acceleration = 5.0f; // Smooth acceleration
+    private float deceleration = 10.0f; // Smooth deceleration
     private float jumpSpeed = 7.5f;
     private float gravity = 10.0f;
     private Animator animator;
 
     private Vector3 moveDirection = Vector3.zero;
+    private Vector3 targetMoveDirection = Vector3.zero; 
     private CharacterController controller;
     private bool isGrounded;
 
@@ -25,41 +28,31 @@ public class PlayerControl : MonoBehaviour
 
         if (isGrounded)
         {
+            // Get inputs for horizontal and vertical movement
             float horizontalInput = Input.GetAxis("Horizontal");
             float verticalInput = Input.GetAxis("Vertical");
 
-            Vector3 targetDirection = Vector3.zero;
+            // Create a target direction based on input
+            Vector3 inputDirection = new Vector3(horizontalInput, 0, verticalInput).normalized;
 
-            if (verticalInput > 0)
+            if (inputDirection != Vector3.zero)
             {
-                targetDirection = Vector3.forward;
-            }
-            else if (verticalInput < 0)
-            {
-                targetDirection = Vector3.back;
-            }
-            else if (horizontalInput > 0)
-            {
-                targetDirection = Vector3.right;
-            }
-            else if (horizontalInput < 0)
-            {
-                targetDirection = Vector3.left;
-            }
+                // Smoothly interpolate movement direction
+                targetMoveDirection = Vector3.Lerp(targetMoveDirection, inputDirection * speed, acceleration * Time.deltaTime);
 
-            if (targetDirection != Vector3.zero)
-            {
-                // Rotate the player towards the target direction
-                Quaternion targetRotation = Quaternion.LookRotation(targetDirection);
-                transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 10);
+                // Smoothly rotate the player towards the target direction
+                Quaternion targetRotation = Quaternion.LookRotation(inputDirection);
+                transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 8);
 
-                moveDirection = targetDirection * speed;
-
+                // Set walking animation
                 animator.SetBool("isWalking", true);
             }
             else
             {
-                moveDirection = Vector3.zero;
+                // Instantly stop the movement when no input is detected
+                targetMoveDirection = Vector3.zero;
+
+                // Stop walking animation if movement stops
                 animator.SetBool("isWalking", false);
             }
 
@@ -70,15 +63,17 @@ public class PlayerControl : MonoBehaviour
             }
         }
 
+        // Apply movement
+        moveDirection = targetMoveDirection;
+        moveDirection.y -= gravity * Time.deltaTime * 1.5f; // Apply gravity
+        controller.Move(moveDirection * Time.deltaTime);
+
         // Attack logic
         if (Input.GetMouseButtonDown(0))
         {
             animator.SetBool("isAttacking", true);
             Invoke("ResetAttack", 1.5f);
         }
-
-        moveDirection.y -= gravity * Time.deltaTime * 1.5f;
-        controller.Move(moveDirection * Time.deltaTime);
     }
 
     private void ResetAttack()
