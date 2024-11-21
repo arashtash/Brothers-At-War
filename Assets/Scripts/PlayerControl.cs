@@ -10,6 +10,8 @@ public class PlayerControl : MonoBehaviour
     private float jumpSpeed = 7.5f;
     private float gravity = 10.0f;
     private Animator animator;
+    public AudioSource source1;
+    public AudioSource source2;
 
     private Vector3 moveDirection = Vector3.zero;
     private Vector3 targetMoveDirection = Vector3.zero; 
@@ -72,6 +74,8 @@ public class PlayerControl : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             animator.SetBool("isAttacking", true);
+            source1.Play();
+
             Invoke("ResetAttack", 1.5f);
         }
     }
@@ -79,5 +83,17 @@ public class PlayerControl : MonoBehaviour
     private void ResetAttack()
     {
         animator.SetBool("isAttacking", false);
+    }
+
+    void OnCollisionEnter(Collision collision){
+        if(collision.gameObject.CompareTag("Goblin")){
+            enemyHealth healthScript = collision.gameObject.GetComponent<enemyHealth>();
+            if(healthScript != null){
+                source2.Play();
+                // healthScript.TakeDamage(10);
+            }
+
+            Destroy(gameObject);
+        }
     }
 }
