@@ -413,6 +413,7 @@
 "Assets/Scripts/TowerHealth.cs"
 "Assets/Scripts/turretShoot.cs"
 "Assets/Scripts/wardingTower.cs"
+"Assets/Scripts/waveCreator.cs"
 -langversion:9.0
 /deterministic
 /optimize+
