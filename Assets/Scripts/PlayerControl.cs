@@ -4,24 +4,25 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerControl : MonoBehaviour
 {
-    private float speed = 10.0f; // Base movement speed
-    private float acceleration = 5.0f; // Smooth acceleration
-    private float deceleration = 10.0f; // Smooth deceleration
-    private float jumpSpeed = 7.5f;
+    private float speed = 10.0f;
+    private float rotationSpeed = 10.0f;
+    private float jumpSpeed = 14.5f;
     private float gravity = 10.0f;
     private Animator animator;
     public AudioSource source1;
     public AudioSource source2;
 
     private Vector3 moveDirection = Vector3.zero;
-    private Vector3 targetMoveDirection = Vector3.zero; 
     private CharacterController controller;
     private bool isGrounded;
+
+    private bool isShift;
 
     void Start()
     {
         animator = GetComponent<Animator>();
         controller = GetComponent<CharacterController>();
+        isShift = false;
     }
 
     void Update()
@@ -30,47 +31,55 @@ public class PlayerControl : MonoBehaviour
 
         if (isGrounded)
         {
-            // Get inputs for horizontal and vertical movement
-            float horizontalInput = Input.GetAxis("Horizontal");
-            float verticalInput = Input.GetAxis("Vertical");
+            float horizontalInput = Input.GetAxisRaw("Horizontal"); 
+            float verticalInput = Input.GetAxisRaw("Vertical");
 
-            // Create a target direction based on input
             Vector3 inputDirection = new Vector3(horizontalInput, 0, verticalInput).normalized;
 
             if (inputDirection != Vector3.zero)
-            {
-                // Smoothly interpolate movement direction
-                targetMoveDirection = Vector3.Lerp(targetMoveDirection, inputDirection * speed, acceleration * Time.deltaTime);
+            {        
+                if (Input.GetKeyDown(KeyCode.LeftShift))
+                {
+                    isShift = true;
+                }
 
-                // Smoothly rotate the player towards the target direction
+                else if(Input.GetKeyUp(KeyCode.LeftShift)){
+                    isShift = false;
+                }
+
+
+                if (isShift)
+                {
+                    Debug.Log("Sprinting");
+                    moveDirection = inputDirection * (2.0f * speed);
+                }
+                else
+                {
+                    Debug.Log("Not sprinting");
+                    moveDirection = inputDirection * speed;
+                }
+        
                 Quaternion targetRotation = Quaternion.LookRotation(inputDirection);
-                transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 8);
+                transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * rotationSpeed);
 
-                // Set walking animation
                 animator.SetBool("isWalking", true);
             }
             else
             {
-                // Instantly stop the movement when no input is detected
-                targetMoveDirection = Vector3.zero;
-
-                // Stop walking animation if movement stops
+                moveDirection = Vector3.zero;
                 animator.SetBool("isWalking", false);
             }
 
-            // Jump logic
             if (Input.GetButton("Jump"))
             {
                 moveDirection.y = jumpSpeed;
             }
         }
 
-        // Apply movement
-        moveDirection = targetMoveDirection;
-        moveDirection.y -= gravity * Time.deltaTime * 1.5f; // Apply gravity
+        moveDirection.y -= gravity * Time.deltaTime;
+
         controller.Move(moveDirection * Time.deltaTime);
 
-        // Attack logic
         if (Input.GetMouseButtonDown(0))
         {
             animator.SetBool("isAttacking", true);
@@ -85,12 +94,14 @@ public class PlayerControl : MonoBehaviour
         animator.SetBool("isAttacking", false);
     }
 
-    void OnCollisionEnter(Collision collision){
-        if(collision.gameObject.CompareTag("Goblin")){
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Goblin"))
+        {
             enemyHealth healthScript = collision.gameObject.GetComponent<enemyHealth>();
-            if(healthScript != null){
+            if (healthScript != null)
+            {
                 source2.Play();
-                // healthScript.TakeDamage(10);
             }
 
             Destroy(gameObject);
