@@ -8,74 +8,75 @@ public class EnemyMove : MonoBehaviour
     public GameObject[] waypoints;
 
     private int soundTimer = 120;
-    bool soundCanBePlayed = true;
+    private bool soundCanBePlayed = true;
     private int counter = 0;
     private Animation enemyAnimation;
-    AudioManager audiomanager;
+    private AudioManager audiomanager;
 
-    // Start is called before the first frame update
+    
+
     void Start()
     {
-        enemyAnimation = GetComponent<Animation>(); // Get the Animation component
-        audiomanager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>(); // Get the audio manager component
+        enemyAnimation = GetComponent<Animation>();
+        audiomanager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (counter < waypoints.Length)
+        if (waypoints != null && waypoints.Length > 0)
         {
-            Transform targetWaypoint = waypoints[counter].transform;
-            float step = speed * Time.deltaTime;
-
-            // Move the goblin towards the waypoint
-            transform.position = Vector3.MoveTowards(transform.position, targetWaypoint.position, step);
-
-            // Rotate the goblin to face the direction of movement
-            Vector3 direction = targetWaypoint.position - transform.position;
-            if (direction != Vector3.zero)
+            if (counter < waypoints.Length)
             {
-                Quaternion rotation = Quaternion.LookRotation(direction);
-                transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * speed);
-            }
+                Transform targetWaypoint = waypoints[counter].transform;
+                float step = speed * Time.deltaTime;
 
-            // Check if the goblin has reached the waypoint
-            if (Vector3.Distance(transform.position, targetWaypoint.position) < 0.1f)
-            {
-                counter++; // Move to the next waypoint
-            }
+                transform.position = Vector3.MoveTowards(transform.position, targetWaypoint.position, step);
 
-            // Change animation based on movement
-            if (Vector3.Distance(transform.position, targetWaypoint.position) > 0.1f)
-            {
-                enemyAnimation.CrossFade("run"); // Play running animation
+                Vector3 direction = targetWaypoint.position - transform.position;
+                if (direction != Vector3.zero)
+                {
+                    Quaternion rotation = Quaternion.LookRotation(direction);
+                    transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * speed);
+                }
+
+                if (Vector3.Distance(transform.position, targetWaypoint.position) < 0.1f)
+                {
+                    counter++;
+                }
+
+                if (Vector3.Distance(transform.position, targetWaypoint.position) > 0.1f)
+                {
+                    enemyAnimation.CrossFade("run");
+                }
+                else
+                {
+                    enemyAnimation.CrossFade("idle");
+                }
             }
             else
             {
-                enemyAnimation.CrossFade("idle"); // Play idle animation when stopping
+                enemyAnimation.CrossFade("attack1");
+
+                if (soundCanBePlayed)
+                {
+                    audiomanager.PlaySFX(audiomanager.goblinAttack);
+                    soundTimer = 450;
+                    soundCanBePlayed = false;
+                }
+
+                if (soundTimer > 0)
+                {
+                    soundTimer--;
+                }
+                else if (soundTimer <= 0)
+                {
+                    soundCanBePlayed = true;
+                }
             }
         }
         else
         {
-            enemyAnimation.CrossFade("attack1"); // last waypoint is castle, attack the castle
-
-            // Play sound if sound can be played
-            if (soundCanBePlayed)
-            {
-                audiomanager.PlaySFX(audiomanager.goblinAttack); //play attack sound when hitting castle
-                soundTimer = 450;
-                soundCanBePlayed = false;
-            }
-
-            // decrement timer until timer can be played
-            if (soundTimer > 0)
-            {
-                soundTimer--;
-            }
-            else if (soundTimer <= 0)
-            {
-                soundCanBePlayed = true;
-            }
+            Debug.LogWarning("Waypoints not assigned correctly.");
         }
     }
 }
