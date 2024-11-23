@@ -14,19 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 0
     y: 43
     width: 1920
     height: 989
-=======
-    x: 7.2000003
-    y: 50.4
-    width: 1521.6
-    height: 766.4
->>>>>>> level-terrain
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -51,13 +44,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 1920
     height: 989
-=======
-    width: 1521.6
-    height: 766.4
->>>>>>> level-terrain
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -81,11 +69,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 1920
-=======
-    width: 1521.6
->>>>>>> level-terrain
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -106,13 +90,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
     y: 969
     width: 1920
-=======
-    y: 746.4
-    width: 1521.6
->>>>>>> level-terrain
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -135,21 +114,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-<<<<<<< HEAD
     width: 1920
     height: 939
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
   controlID: 37
-=======
-    width: 1521.6
-    height: 716.4
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 0
-  controlID: 99
->>>>>>> level-terrain
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -170,21 +140,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 1392
     height: 939
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
   controlID: 38
-=======
-    width: 1181.6
-    height: 716.4
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 44
->>>>>>> level-terrain
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -205,21 +166,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 1392
     height: 583
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
   controlID: 39
-=======
-    width: 1181.6
-    height: 492
-  m_MinSize: {x: 200, y: 50}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 45
->>>>>>> level-terrain
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -238,15 +190,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 237
     height: 583
-=======
-    width: 264.8
-    height: 492
->>>>>>> level-terrain
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -262,31 +209,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 237
     y: 0
     width: 1155
     height: 583
-=======
-    x: 264.8
-    y: 0
-    width: 916.8
-    height: 492
->>>>>>> level-terrain
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 15}
   - {fileID: 16}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -297,29 +237,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
     y: 583
     width: 1392
     height: 356
-=======
-    y: 492
-    width: 1181.6
-    height: 224.40002
->>>>>>> level-terrain
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 12}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 12}
   - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -335,21 +269,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 1392
     y: 0
     width: 528
     height: 939
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-=======
-    x: 1181.6
-    y: 0
-    width: 340
-    height: 716.4
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
->>>>>>> level-terrain
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -371,21 +296,14 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 0
     y: 656
     width: 1391
     height: 335
-=======
-    x: 7.2000003
-    y: 572.8
-    width: 1180.6
-    height: 203.40002
->>>>>>> level-terrain
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -407,11 +325,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-<<<<<<< HEAD
-    - Assets/Materials 1
-=======
     - Assets
->>>>>>> level-terrain
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -419,29 +333,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-<<<<<<< HEAD
-  - Assets/Materials 1
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\lprho\Brothers-At-War
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 101}
-    m_SelectedIDs: 54650000
-    m_LastClickedID: 25940
-    m_ExpandedIDs: 000000001e6500002065000022650000
-=======
-  - Assets
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\arash\OneDrive\Desktop\Unity\Project\Brothers-At-War
-  m_LockTracker:
-    m_IsLocked: 0
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 95}
-    m_SelectedIDs: 106d0000
-    m_LastClickedID: 27920
-    m_ExpandedIDs: 00000000106d0000126d0000146d0000166d0000186d00001a6d00001c6d00001e6d0000206d0000226d0000246d0000266d000000ca9a3b
->>>>>>> level-terrain
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: 14060000
+    m_LastClickedID: 1556
+    m_ExpandedIDs: 0000000014060000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -469,11 +370,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-    m_ExpandedIDs: 000000001e6500002065000022650000
-=======
-    m_ExpandedIDs: 00000000106d0000126d0000146d0000166d0000186d00001a6d00001c6d00001e6d0000206d0000226d0000246d0000266d0000
->>>>>>> level-terrain
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -500,13 +397,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-<<<<<<< HEAD
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300009c740000645c0000000000005a5c0000565f0000be5c00008e1703006c5d0000cc740000e65d0000f25d0000f460000064620000c6630000da62000002630000bc6f0000ea7c0000
-=======
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300009c740000645c0000000000005a5c0000565f0000be5c00008e1703006c5d0000cc740000e65d0000f25d0000f460000064620000c6630000da62000002630000bc6f0000
->>>>>>> level-terrain
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -530,7 +422,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 6}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -550,21 +442,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 0
     y: 73
     width: 236
     height: 562
-=======
-    x: 7.2000003
-    y: 80.8
-    width: 263.8
-    height: 471
->>>>>>> level-terrain
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -578,15 +463,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: e8f9ffff00fbffff
-=======
-      m_SelectedIDs: 4cd0feff
-      m_LastClickedID: -77748
-      m_ExpandedIDs: 4cd0fefff0defeff74e6feff28effeff46f3feff6af3feffc2f3feff1af4feff72f4feff82f4feff8cf4feffecfffeff3638ffff7a41ffff9e41fffff641ffff4e42ffffa642ffffb642ffffc042ffff644cffff1afbffff3862000090620000d06200000a6300003e630000b26300000a6400004a6400006a640000
->>>>>>> level-terrain
+      m_SelectedIDs: c81bfeff
+      m_LastClickedID: -123960
+      m_ExpandedIDs: 2c23feff4424feff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -626,21 +505,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 237
     y: 73
     width: 1153
     height: 562
-=======
-    x: 272
-    y: 80.8
-    width: 914.8
-    height: 471
->>>>>>> level-terrain
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -999,15 +871,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
-    m_Target: {x: 421.26062, y: -108.63597, z: -557.8949}
+    m_Target: {x: 20.42151, y: 2.0401287, z: 29.800705}
     speed: 2
-    m_Value: {x: 421.26062, y: -108.63597, z: -557.8949}
-=======
-    m_Target: {x: 422.1169, y: 246.29231, z: -75.90041}
-    speed: 2
-    m_Value: {x: 422.1169, y: 246.29231, z: -75.90041}
->>>>>>> level-terrain
+    m_Value: {x: 20.42151, y: 2.0401287, z: 29.800705}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1053,23 +919,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-<<<<<<< HEAD
-    m_Target: {x: 0.06705633, y: 0.91041267, z: -0.16313772, w: 0.37421325}
+    m_Target: {x: -0.16953085, y: -0.20761465, z: 0.036560312, w: -0.9627144}
     speed: 2
-    m_Value: {x: 0.06705642, y: 0.9104139, z: -0.16313794, w: 0.37421376}
+    m_Value: {x: -0.16953085, y: -0.20761465, z: 0.036560312, w: -0.9627144}
   m_Size:
-    m_Target: 440.55576
+    m_Target: 10
     speed: 2
-    m_Value: 440.55576
-=======
-    m_Target: {x: 0.09464978, y: -0.017924365, z: 0.0016765265, w: 0.9954039}
-    speed: 2
-    m_Value: {x: 0.094644494, y: -0.017923364, z: 0.001676433, w: 0.99534833}
-  m_Size:
-    m_Target: 222.60011
-    speed: 2
-    m_Value: 213.01447
->>>>>>> level-terrain
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1087,7 +943,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0.034639355, y: 0.88040555, z: -0.06510052, w: 0.46845087}
+  m_LastSceneViewRotation: {x: 0.018929057, y: 0.98100334, z: -0.13055852, w: 0.14223354}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -1110,21 +966,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 237
     y: 73
     width: 1153
     height: 562
-=======
-    x: 272
-    y: 80.8
-    width: 914.8
-    height: 471
->>>>>>> level-terrain
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1141,11 +990,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-<<<<<<< HEAD
   m_TargetSize: {x: 1153, y: 541}
-=======
-  m_TargetSize: {x: 914.8, y: 450}
->>>>>>> level-terrain
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1160,17 +1005,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-<<<<<<< HEAD
     m_HBaseRangeMin: -576.5
     m_HBaseRangeMax: 576.5
     m_VBaseRangeMin: -270.5
     m_VBaseRangeMax: 270.5
-=======
-    m_HBaseRangeMin: -365.92
-    m_HBaseRangeMax: 365.92
-    m_VBaseRangeMin: -180
-    m_VBaseRangeMax: 180
->>>>>>> level-terrain
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1188,24 +1026,16 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-<<<<<<< HEAD
       width: 1153
       height: 541
     m_Scale: {x: 1.25, y: 1.25}
     m_Translation: {x: 576.5, y: 270.5}
-=======
-      width: 914.8
-      height: 450
-    m_Scale: {x: 1.25, y: 1.25}
-    m_Translation: {x: 457.40002, y: 225}
->>>>>>> level-terrain
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-<<<<<<< HEAD
       x: -461.2
       y: -216.4
       width: 922.4
@@ -1213,15 +1043,6 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1153, y: 562}
-=======
-      x: -365.92
-      y: -180
-      width: 731.83997
-      height: 360
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1143.5, y: 588.75}
->>>>>>> level-terrain
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1243,14 +1064,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Asset Store
-    m_Image: {fileID: -7444545952099596278, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -8693916549880196297, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 288.80002
+    x: 236.8
     y: 80.8
-    width: 977.2001
-    height: 564.6
+    width: 967.6
+    height: 463
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1277,21 +1098,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 0
     y: 656
     width: 1391
     height: 335
-=======
-    x: 7.2000003
-    y: 572.8
-    width: 1259.8
-    height: 203.40002
->>>>>>> level-terrain
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1318,21 +1132,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 1392
     y: 73
     width: 527
     height: 918
-=======
-    x: 1188.8
-    y: 80.8
-    width: 339
-    height: 695.4
->>>>>>> level-terrain
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
