@@ -50,6 +50,6 @@ public class enemyHealth : MonoBehaviour
     void Die()
     {
         // Optionally, you could add some delay here for animations or effects
-        Destroy(gameObject);
+        Destroy(transform.parent.gameObject);
     }
 }

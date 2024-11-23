@@ -410,6 +410,7 @@
 "Assets/Scripts/enemyHealth.cs"
 "Assets/Scripts/enemyMove.cs"
 "Assets/Scripts/FloatingHealthBar.cs"
+"Assets/Scripts/GameManager.cs"
 "Assets/Scripts/orcMove.cs"
 "Assets/Scripts/PlayerControl.cs"
 "Assets/Scripts/PlayerMovement.cs"
