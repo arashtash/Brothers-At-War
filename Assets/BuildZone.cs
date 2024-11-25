@@ -37,12 +37,15 @@ public class BuildZone : MonoBehaviour
     //This method is executed when a collision occurs
     void OnTriggerEnter(Collider other)
     {
+
+        Debug.Log("Something is colliding");
         //If the collided item is the player
         if (other.CompareTag("Player"))
         {
             playerInRange = true;   //Set the player in range of the building spot flag to true
             buildPromptUI.SetActive(true);  //Activate the build prompt canvas
 
+            Debug.Log("Player is Colliding");
             // Close the economy menu if it's open
             if (economyManager != null)
             {
@@ -101,8 +104,12 @@ public class BuildZone : MonoBehaviour
             //Report the tower creation
             Debug.Log($"Tower {towerIndex + 1} created at {transform.position} for {towerCost} ducats.");
 
+            Debug.Log("Tower is built");
+
             buildPromptUI.SetActive(false); //hide the build prompt
             Destroy(gameObject);    //destroy the build zone
+
+            Debug.Log("Destroy was called");
         }
         else //If the player does not have enough money
         {

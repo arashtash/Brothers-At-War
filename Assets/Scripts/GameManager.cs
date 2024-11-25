@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject[] waves;
     public GameObject buildPhaseUI;
+    public GameObject spawnPoint;
 
     private bool inWave = false;
     private int waveCounter = 0;
@@ -42,7 +43,7 @@ public class GameManager : MonoBehaviour
     //spawns the game object to start specified wave based on waveCounter
     void spawnWave()
     {
-        Instantiate(waves[waveCounter], transform.position, Quaternion.identity);
+        Instantiate(waves[waveCounter], spawnPoint.transform.position, Quaternion.identity);
         inWave = true;
         Debug.Log("InWave set to true");
         waveCounter++;

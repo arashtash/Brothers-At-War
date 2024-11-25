@@ -8,6 +8,7 @@ public class PlayerControl : MonoBehaviour
     private float rotationSpeed = 10.0f;
     private float jumpSpeed = 14.5f;
     private float gravity = 10.0f;
+    public float power = 1.0f;
     private Animator animator;
     public AudioSource source1;
     public AudioSource source2;
@@ -31,8 +32,8 @@ public class PlayerControl : MonoBehaviour
 
         if (isGrounded)
         {
-            float horizontalInput = Input.GetAxisRaw("Horizontal"); 
-            float verticalInput = Input.GetAxisRaw("Vertical");
+            float horizontalInput = 0 - Input.GetAxisRaw("Horizontal"); 
+            float verticalInput = 0 - Input.GetAxisRaw("Vertical");
 
             Vector3 inputDirection = new Vector3(horizontalInput, 0, verticalInput).normalized;
 
@@ -96,7 +97,7 @@ public class PlayerControl : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Goblin"))
+        if (collision.gameObject.CompareTag("Goblin") || collision.gameObject.CompareTag("Orc"))
         {
             enemyHealth healthScript = collision.gameObject.GetComponent<enemyHealth>();
             if (healthScript != null)
@@ -104,7 +105,7 @@ public class PlayerControl : MonoBehaviour
                 source2.Play();
             }
 
-            Destroy(gameObject);
+            healthScript.TakeDamage(power);
         }
     }
 }
