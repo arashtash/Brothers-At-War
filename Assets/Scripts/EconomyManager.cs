@@ -79,10 +79,29 @@ public class EconomyManager : MonoBehaviour
     }
 
     //This method toggles the economy menu. If it's on, it'll hide it, if not it will show it.
+    //This method also checks if the player is in a tower building zone and prevents opening the economy menu
+    //in a build zone
     public void ToggleEconomyMenu()
     {
+        //Prevent the economy menu from opening if the player is in a build zone
+        BuildZone[] buildZones = FindObjectsOfType<BuildZone>(); //Find all build zones
+        foreach (var buildZone in buildZones)   //Check for all buildzones
+        {
+            if (buildZone.playerInRange)    //If the player is in that build zone
+            {
+                Debug.Log("Cannot open the economy menu while in a build zone.");   //Report to console
+                return; //Don't allow economy menu to be opened
+            }
+        }
+
         //Toggle the activeness and visibility of the economy menu to the opposite of what it is right now
         economyMenuCanvas.SetActive(!economyMenuCanvas.activeSelf); 
+    }
+
+    //This method Closes the economy menu
+    public void CloseEconomyMenu()
+    {
+        economyMenuCanvas.SetActive(false); //Close the economy menu
     }
 
     //This method handles upgrading the mining sector one level (cost depends on level)
