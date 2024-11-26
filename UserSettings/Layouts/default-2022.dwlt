@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 64
+  controlID: 99
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 65
+  controlID: 42
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 56
+  controlID: 43
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -325,7 +325,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/InfinitaStudio - Mountains/Prefabs/Obj
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -333,16 +333,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/InfinitaStudio - Mountains/Prefabs/Obj
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\arash\OneDrive\Desktop\Unity\Project\Brothers-At-War
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 227}
-    m_SelectedIDs: b0790000
-    m_LastClickedID: 31152
-    m_ExpandedIDs: 000000002a79000000ca9a3b
+    scrollPos: {x: 0, y: 179}
+    m_SelectedIDs: 7a6f0000
+    m_LastClickedID: 28538
+    m_ExpandedIDs: 00000000f26b00002c6c0000346c0000486c0000dc6c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -370,7 +370,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002a790000
+    m_ExpandedIDs: 00000000f26b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -463,23 +463,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 2ea4fbff
-      m_LastClickedID: -285650
-      m_ExpandedIDs: ee83fbffae9cfbff2ea4fbffcab1fbffa4bdfbff1adefffffefaffffba8300001e8800005a880000928800009a880000ac880000c488000008890000268900004689000092890000a6890000ca890000e0890000768a0000c48a0000
+      m_SelectedIDs: fefaffff
+      m_LastClickedID: -1282
+      m_ExpandedIDs: a25effff3c69ffff0c98fffffefaffff9a650000e26500004c660000f266000000680000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Tower4 (1)
-        m_OriginalName: Tower4 (1)
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -293906
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -871,9 +871,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 375.3839, y: -134.99033, z: 635.11145}
+    m_Target: {x: 439.21252, y: -7.6947145, z: 536.8934}
     speed: 2
-    m_Value: {x: 375.3839, y: -134.99033, z: 635.11145}
+    m_Value: {x: 439.21252, y: -7.6947145, z: 536.8934}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -919,17 +919,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.35885608, y: -0.64002156, z: 0.45586902, w: 0.5038312}
+    m_Target: {x: 0.12787326, y: -0.38012138, z: 0.05312361, w: 0.9145576}
     speed: 2
-    m_Value: {x: 0.3593907, y: -0.6393949, z: 0.45542264, w: 0.5045818}
+    m_Value: {x: 0.1278042, y: -0.3812031, z: 0.053274848, w: 0.9140635}
   m_Size:
-    m_Target: 151.7698
+    m_Target: 422.00745
     speed: 2
-    m_Value: 151.7698
+    m_Value: 403.83487
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1.1799101
     m_SpeedNormalized: 0.58974993
@@ -1103,9 +1103,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 677.60004
+    y: 526.4
     width: 1235
-    height: 105.79999
+    height: 257
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
