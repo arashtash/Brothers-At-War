@@ -573,7 +573,7 @@ MonoBehaviour:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
-  notEnoughMoneyText: {fileID: 2020454953}
+  notEnoughMoneyText: {fileID: 1064039957}
 --- !u!1 &279400427
 GameObject:
   m_ObjectHideFlags: 0
@@ -1454,7 +1454,7 @@ MonoBehaviour:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
-  notEnoughMoneyText: {fileID: 2020454953}
+  notEnoughMoneyText: {fileID: 1064039957}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1652,6 +1652,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 157328864514438139, guid: 4d580ed54c4de7b478fd422bd9226010, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.36037737
+      objectReference: {fileID: 0}
+    - target: {fileID: 157328864514438139, guid: 4d580ed54c4de7b478fd422bd9226010, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.8853993
+      objectReference: {fileID: 0}
+    - target: {fileID: 157328864514438139, guid: 4d580ed54c4de7b478fd422bd9226010, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 157328864514438139, guid: 4d580ed54c4de7b478fd422bd9226010, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4284277503
+      objectReference: {fileID: 0}
     - target: {fileID: 4489118288912267725, guid: 4d580ed54c4de7b478fd422bd9226010, type: 3}
       propertyPath: m_Name
       value: BuildPrompt 1
@@ -1735,6 +1751,10 @@ PrefabInstance:
     - target: {fileID: 4797371805536714708, guid: 4d580ed54c4de7b478fd422bd9226010, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8707717558571270773, guid: 4d580ed54c4de7b478fd422bd9226010, type: 3}
+      propertyPath: m_Name
+      value: ErrorMessage
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1952,7 +1972,7 @@ MonoBehaviour:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
-  notEnoughMoneyText: {fileID: 2020454953}
+  notEnoughMoneyText: {fileID: 1064039957}
 --- !u!1 &929790380 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4154131212499033000, guid: 312743d386469c24e84ad25bcc9d2689, type: 3}
@@ -2159,7 +2179,7 @@ MonoBehaviour:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
-  notEnoughMoneyText: {fileID: 2020454953}
+  notEnoughMoneyText: {fileID: 1064039957}
 --- !u!114 &1032726037 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4614745798219577358, guid: 82cf124bca10469448a995c55439020d, type: 3}
@@ -2176,6 +2196,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4154131212499033000, guid: 312743d386469c24e84ad25bcc9d2689, type: 3}
   m_PrefabInstance: {fileID: 1744556935}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1064039957 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5873361405868544507, guid: 4d580ed54c4de7b478fd422bd9226010, type: 3}
+  m_PrefabInstance: {fileID: 788221546}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1074899230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2438,7 +2469,7 @@ MonoBehaviour:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
-  notEnoughMoneyText: {fileID: 2020454953}
+  notEnoughMoneyText: {fileID: 1064039957}
 --- !u!1 &1167986485
 GameObject:
   m_ObjectHideFlags: 0
@@ -2837,7 +2868,7 @@ MonoBehaviour:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
-  notEnoughMoneyText: {fileID: 2020454953}
+  notEnoughMoneyText: {fileID: 1064039957}
 --- !u!1 &1397239003
 GameObject:
   m_ObjectHideFlags: 0
@@ -3596,7 +3627,7 @@ MonoBehaviour:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
-  notEnoughMoneyText: {fileID: 2020454953}
+  notEnoughMoneyText: {fileID: 1064039957}
 --- !u!114 &1577096463 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1867184503281830769, guid: 82cf124bca10469448a995c55439020d, type: 3}
@@ -3738,7 +3769,7 @@ MonoBehaviour:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
-  notEnoughMoneyText: {fileID: 2020454953}
+  notEnoughMoneyText: {fileID: 1064039957}
 --- !u!114 &1627698028 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2319996543667198769, guid: 82cf124bca10469448a995c55439020d, type: 3}
@@ -3859,7 +3890,7 @@ MonoBehaviour:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
-  notEnoughMoneyText: {fileID: 2020454953}
+  notEnoughMoneyText: {fileID: 1064039957}
 --- !u!1 &1676956613
 GameObject:
   m_ObjectHideFlags: 0
@@ -3962,7 +3993,7 @@ MonoBehaviour:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
-  notEnoughMoneyText: {fileID: 2020454953}
+  notEnoughMoneyText: {fileID: 1064039957}
 --- !u!1 &1696456987
 GameObject:
   m_ObjectHideFlags: 0
@@ -4016,7 +4047,7 @@ MonoBehaviour:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
-  notEnoughMoneyText: {fileID: 2020454953}
+  notEnoughMoneyText: {fileID: 1064039957}
 --- !u!1001 &1712327033
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4115,7 +4146,7 @@ MonoBehaviour:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
-  notEnoughMoneyText: {fileID: 2020454953}
+  notEnoughMoneyText: {fileID: 1064039957}
 --- !u!1 &1739834737 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4154131212499033000, guid: 312743d386469c24e84ad25bcc9d2689, type: 3}
@@ -4138,7 +4169,7 @@ MonoBehaviour:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
-  notEnoughMoneyText: {fileID: 2020454953}
+  notEnoughMoneyText: {fileID: 1064039957}
 --- !u!1001 &1744556935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4237,7 +4268,7 @@ MonoBehaviour:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
-  notEnoughMoneyText: {fileID: 2020454953}
+  notEnoughMoneyText: {fileID: 1064039957}
 --- !u!1 &1762643198 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4154131212499033000, guid: 312743d386469c24e84ad25bcc9d2689, type: 3}
@@ -4260,7 +4291,7 @@ MonoBehaviour:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
-  notEnoughMoneyText: {fileID: 2020454953}
+  notEnoughMoneyText: {fileID: 1064039957}
 --- !u!4 &1764958887 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3263981953530383593, guid: 0b0315988d4640f4f8028117c16b74e1, type: 3}
@@ -4427,7 +4458,7 @@ MonoBehaviour:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
-  notEnoughMoneyText: {fileID: 2020454953}
+  notEnoughMoneyText: {fileID: 1064039957}
 --- !u!1001 &1849273557
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4588,7 +4619,7 @@ MonoBehaviour:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
-  notEnoughMoneyText: {fileID: 2020454953}
+  notEnoughMoneyText: {fileID: 1064039957}
 --- !u!1 &1905850467
 GameObject:
   m_ObjectHideFlags: 0
@@ -4642,7 +4673,7 @@ MonoBehaviour:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
-  notEnoughMoneyText: {fileID: 2020454953}
+  notEnoughMoneyText: {fileID: 1064039957}
 --- !u!1 &1938726287 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4154131212499033000, guid: 312743d386469c24e84ad25bcc9d2689, type: 3}
@@ -4851,7 +4882,7 @@ MonoBehaviour:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
-  notEnoughMoneyText: {fileID: 2020454953}
+  notEnoughMoneyText: {fileID: 1064039957}
 --- !u!1 &2011216187
 GameObject:
   m_ObjectHideFlags: 0
@@ -4884,17 +4915,6 @@ Transform:
   - {fileID: 1074899231}
   m_Father: {fileID: 1357882262}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2020454953 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 157328864514438139, guid: 4d580ed54c4de7b478fd422bd9226010, type: 3}
-  m_PrefabInstance: {fileID: 788221546}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2042331554
 GameObject:
   m_ObjectHideFlags: 0
@@ -5313,6 +5333,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2571192338350043085, guid: ea1f084809fa7f342828d580c2f18d8a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 2571192338350043085, guid: ea1f084809fa7f342828d580c2f18d8a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.57
+      objectReference: {fileID: 0}
     - target: {fileID: 3481642420840670319, guid: ea1f084809fa7f342828d580c2f18d8a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.2
@@ -5492,7 +5520,7 @@ MonoBehaviour:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
-  notEnoughMoneyText: {fileID: 2020454953}
+  notEnoughMoneyText: {fileID: 1064039957}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

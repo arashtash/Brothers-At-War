@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|c:\\users\\arash\\onedrive\\desktop\\unity\\project\\brothers-at-war\\assets\\buildzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|solutionrelative:assets\\buildzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|c:\\users\\arash\\onedrive\\desktop\\unity\\project\\brothers-at-war\\assets\\scripts\\economymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\economymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "BuildZone.cs",
+              "DocumentMoniker": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\Assets\\BuildZone.cs",
+              "RelativeDocumentMoniker": "Assets\\BuildZone.cs",
+              "ToolTip": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\Assets\\BuildZone.cs",
+              "RelativeToolTip": "Assets\\BuildZone.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDAAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T00:59:56.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EnemyAI.cs",
               "DocumentMoniker": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\Assets\\Scripts\\EnemyAI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAI.cs",
@@ -30,17 +47,18 @@
               "RelativeToolTip": "Assets\\Scripts\\EnemyAI.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwBoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T18:59:10.726Z"
+              "WhenOpened": "2024-11-22T18:59:10.726Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EconomyManager.cs",
               "DocumentMoniker": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\Assets\\Scripts\\EconomyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EconomyManager.cs",
               "ToolTip": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\Assets\\Scripts\\EconomyManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\EconomyManager.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAwEAAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAswFIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T17:02:34.335Z",
               "EditorCaption": ""
