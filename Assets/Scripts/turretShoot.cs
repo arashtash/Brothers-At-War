@@ -5,12 +5,13 @@ using UnityEngine;
 public class TurretShoot : MonoBehaviour
 {
     public float shootSpeed = 3f;           // Time between shots
-    public float shootCooldownLeft = 3f;    // Time left on cooldown
-    public GameObject bulletPrefab;         // Bullet prefab
-    public float bulletSpeed = 10f;         // Bullet speed
-    private GameObject target;              // The current target (enemy)
-    private List<GameObject> enemies;       // List of enemies in range
-    public float bulletDamage = 5.0f;       // damage dealt by the bullet fired by this tower
+    public float shootCooldownLeft = 3f;   // Time left on cooldown
+    public GameObject bulletPrefab;        // Bullet prefab
+    public float bulletSpeed = 10f;        // Bullet speed
+    private GameObject target;             // The current target (enemy)
+    private List<GameObject> enemies;      // List of enemies in range
+    public float bulletDamage = 5.0f;      // Damage dealt by the bullet fired by this tower
+    public float rotationSpeed = 5f;       // Speed of rotation towards target
 
     // Start is called before the first frame update
     void Start()
@@ -23,23 +24,49 @@ public class TurretShoot : MonoBehaviour
     {
         shootCooldownLeft -= Time.deltaTime;
 
-        // Shoot a bullet if cooldown is over and there are enemies in range
-        if (shootCooldownLeft <= 0 && enemies.Count > 0)
-        {
-            ShootBullet();
-            shootCooldownLeft = shootSpeed;  // Reset cooldown
-        }
-
         // Assign the first enemy in range as the target
         if (enemies.Count > 0)
         {
             target = enemies[0];
+
+            // Rotate the parent tagged "Cannon" towards the target
+            RotateCannonTowardsTarget();
+        }
+        else
+        {
+            target = null; // Clear target if no enemies are in range
+        }
+
+        // Shoot a bullet if cooldown is over and there are enemies in range
+        if (shootCooldownLeft <= 0 && target != null)
+        {
+            ShootBullet();
+            shootCooldownLeft = shootSpeed; // Reset cooldown
         }
 
         // Remove null or dead enemies from the list
-        if (enemies.Count > 0 && enemies[0] == null)
+        enemies.RemoveAll(enemy => enemy == null);
+    }
+
+    // Rotate the parent with the tag "Cannon" towards the target
+    private void RotateCannonTowardsTarget()
+    {
+        if (target == null) return;
+
+        // Get the parent with the tag "Cannon"
+        GameObject cannon = transform.parent != null && transform.parent.CompareTag("Cannon") ? transform.parent.gameObject : null;
+
+        if (cannon != null)
         {
-            enemies.RemoveAt(0);
+            // Calculate the direction to the target
+            Vector3 direction = target.transform.position - cannon.transform.position;
+            direction.y = 0; // Ignore vertical rotation
+
+            // Calculate the target rotation
+            Quaternion targetRotation = Quaternion.LookRotation(direction);
+
+            // Smoothly rotate towards the target
+            cannon.transform.rotation = Quaternion.Slerp(cannon.transform.rotation, targetRotation, Time.deltaTime * rotationSpeed);
         }
     }
 

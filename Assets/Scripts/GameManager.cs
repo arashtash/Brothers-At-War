@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public GameObject[] waves;
     public GameObject buildPhaseUI;
     public GameObject spawnPoint;
+    public EconomyManager economyManager;
 
     private bool inWave = false;
     private int waveCounter = 0;
@@ -16,7 +17,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         buildPhaseUI.SetActive(false);
-        
+        //EconomyManager = GameObject.GetComponent<EconomyManager>();
     }
 
     // Update is called once per frame
@@ -32,6 +33,7 @@ public class GameManager : MonoBehaviour
         if (!inWave)
         {
             buildPhase();
+            
         }
     }
 
@@ -53,5 +55,6 @@ public class GameManager : MonoBehaviour
     {
         inWave = false;
         Debug.Log("InWave set to false");
+        economyManager.HandleMoneyAfterWave();
     }
 }
