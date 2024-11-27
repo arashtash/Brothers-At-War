@@ -17,7 +17,6 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         buildPhaseUI.SetActive(false);
-        //EconomyManager = GameObject.GetComponent<EconomyManager>();
     }
 
     // Update is called once per frame
@@ -54,7 +53,15 @@ public class GameManager : MonoBehaviour
     public void waveOver()
     {
         inWave = false;
-        Debug.Log("InWave set to false");
-        economyManager.HandleMoneyAfterWave();
+        Debug.Log("Wave Over: InWave set to false");
+        if (economyManager != null)
+        {
+            economyManager.HandleMoneyAfterWave();
+        }
+        else
+        {
+            Debug.LogError("EconomyManager reference is missing!");
+        }
     }
+
 }
