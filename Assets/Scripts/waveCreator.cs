@@ -32,11 +32,11 @@ public class waveCreator : MonoBehaviour
             generateEnemy();
         }
 
-        // Check if all spawned enemies are destroyed
+        //check if all spawned enemies are destroyed
         if (enemyCounter == (enemies.Length) && AllEnemiesDestroyed())
         {
             gameManager.waveOver();
-            Destroy(gameObject); // Optionally destroy this wave object when done
+            Destroy(gameObject);
         }
     }
 
@@ -49,9 +49,9 @@ public class waveCreator : MonoBehaviour
 
     private bool AllEnemiesDestroyed()
     {
-        // Remove any null references from the list (destroyed enemies)
+        //Remove any null references from the list (destroyed enemies)
         spawnedEnemies.RemoveAll(enemy => enemy == null);
-        // If the list is empty, all enemies are destroyed
+        //if the list is empty, all enemies are destroyed
         Debug.Log(spawnedEnemies.Count);
         return spawnedEnemies.Count == 0;
 
