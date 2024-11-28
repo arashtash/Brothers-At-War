@@ -81,8 +81,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278650631
-  m_fontColor: {r: 0.028301895, g: 0.0271004, b: 0.0271004, a: 1}
+    rgba: 4284277503
+  m_fontColor: {r: 1, g: 0.8853993, b: 0.36037737, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -503,7 +503,7 @@ GameObject:
   - component: {fileID: 1146925150182344954}
   - component: {fileID: 5873361405868544507}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: ErrorMessage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
