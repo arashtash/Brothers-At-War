@@ -143,25 +143,25 @@ public class EconomyManager : MonoBehaviour
         }
     }
 
-    //This method calculates the player's money after each wave
     public void HandleMoneyAfterWave()
     {
-        //Population defines the base income for after the next wave. It is calculated as follows based on the upgrades:
-        //New Population = (Current population + Trade Bonus) * (1.01 + Agriculture Bonus), where:
-        //Trade Bonus = tradeLevel * tradeFixedPopulationIncrease AND Agriculture Bonus = agricultureLevel * 0.02
-        // Calculate population growth after the upcoming wave
-        int populationAfterTradeBonus = population + (tradeLevel * tradeFixedPopulationIncrease);   //Calculating trade bonus addition
-        int populationGrowthPercentage = 1 + (2 * agricultureLevel); //Population growth is 1% base + 2% per agriculture level
-        int newPopulation = Mathf.FloorToInt(population * (1 + (populationGrowthPercentage / 100f)));   //Calculating new population based on bonuses
+        Debug.Log("Calculating money after wave...");
+        int populationAfterTradeBonus = population + (tradeLevel * tradeFixedPopulationIncrease);
+        Debug.Log($"Population after trade bonus: {populationAfterTradeBonus}");
 
-        
-        population = newPopulation; // Update population and base income
-        baseIncome = population;    //Set the base income to the current population
+        int populationGrowthPercentage = 1 + (2 * agricultureLevel);
+        int newPopulation = Mathf.FloorToInt(populationAfterTradeBonus * (1 + (populationGrowthPercentage / 100f)));
+        Debug.Log($"New Population: {newPopulation}");
 
-        // Calculate income at the end of the wave (Adding mining income to the income from the population)
+        population = newPopulation;
+        baseIncome = population;
+
         playerMoney += baseIncome + (miningLevel * miningIncomeIncrease);
-        UpdateUI(); //Call this method to update the info on the Economy Canvas
+        Debug.Log($"New Player Money: {playerMoney}");
+
+        UpdateUI();
     }
+
 
     //This method updates the UI by updating the levels and the current money of the player on the Economy Canvas
     private void UpdateUI()
