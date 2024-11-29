@@ -30,7 +30,7 @@ PrefabInstance:
       objectReference: {fileID: 1370170782155613540, guid: 65b700ba11054b041a3f2c31102916de, type: 3}
     - target: {fileID: 2768565407781424902, guid: 6cbe4362a9f777d4da26b20dd9e50fbd, type: 3}
       propertyPath: m_Name
-      value: Wave1_Lane2 Variant
+      value: Wave1_Lane2
       objectReference: {fileID: 0}
     - target: {fileID: 3637482718220646349, guid: 6cbe4362a9f777d4da26b20dd9e50fbd, type: 3}
       propertyPath: m_LocalPosition.x

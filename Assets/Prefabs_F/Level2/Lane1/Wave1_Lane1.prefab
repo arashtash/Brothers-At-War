@@ -74,7 +74,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8379990453367956554, guid: 62382b5cf810d91499f9078a5008dd76, type: 3}
       propertyPath: m_Name
-      value: Wave1_Lane1 Variant
+      value: Wave1_Lane1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

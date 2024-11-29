@@ -222,7 +222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2750152330451991959}
   m_Layer: 0
-  m_Name: Orc_Level1_Lane1
+  m_Name: Orc_Level1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
