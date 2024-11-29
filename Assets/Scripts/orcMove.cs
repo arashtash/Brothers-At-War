@@ -43,6 +43,7 @@ public class OrcMove : MonoBehaviour
             }
             else
             {
+                Debug.Log("Calling the attack Castle function");
                 AttackCastle(); // Start attacking the castle
             }
         }
@@ -79,21 +80,16 @@ public class OrcMove : MonoBehaviour
     {
         animator.SetBool("attack", true); // Trigger the attack animation
 
-        //IDK WHAT IS THE NAME OF THE ORC'S ATTACK ANIMATION. I DON'T KNOW HOW ANIMATOR OBJECTS WORK
-        //I NEED TO KNOW THAT TO DETERMINE THE LENGTH OF EACH "HIT" TO THE CASTLE TO DEAL DAMAGE TO IT
-        // Handle damage timing
-        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-        if (stateInfo.IsName("Attack"))
-        {
-            float animationDuration = stateInfo.length; //Get the animation duration
+        
+            float animationDuration = 2f; //Get the animation duration
             attackTimer -= Time.deltaTime; //Decrement timer
 
+            Debug.Log(attackTimer);
             if (attackTimer <= 0f) //Timer has elapsed, deal damage
             {
                 DealDamageToCastle();
                 attackTimer = animationDuration; //reset timer to animation duration
             }
-        }
     }
 
     //This method deals damage to the castle
@@ -101,6 +97,7 @@ public class OrcMove : MonoBehaviour
     {
         if (castleStats != null)    //If castle exist
         {
+            Debug.Log("Dealing damage to castle");
             castleStats.TakeDamage(10); // Inflict 10 damage
         }
         else //Otherwise if castle cannot be found
