@@ -206,7 +206,7 @@ Transform:
   m_GameObject: {fileID: 2184677348151430530}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: -10, y: 0, z: 110}
+  m_LocalPosition: {x: 54.4, y: 0, z: 74.6}
   m_LocalScale: {x: 0.19999994, y: 0.19999999, z: 0.19999994}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -222,7 +222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2750152330451991959}
   m_Layer: 0
-  m_Name: Orc_Level1_Lane1
+  m_Name: Orc_Level2_Lane1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -236,15 +236,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2241627599572543667}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 535, y: 0, z: 411}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 402.8, y: 0, z: 339}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8894705248764175507}
   - {fileID: 950060742307665566}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2420826626294650307
 GameObject:
   m_ObjectHideFlags: 0
