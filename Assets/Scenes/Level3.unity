@@ -1524,6 +1524,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
+  - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 702306136}
   notEnoughMoneyText: {fileID: 1024814554}
@@ -1947,6 +1948,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
+  - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 702306136}
   notEnoughMoneyText: {fileID: 1024814554}
@@ -2192,6 +2194,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
+  - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 702306136}
   notEnoughMoneyText: {fileID: 1024814554}
@@ -2326,6 +2329,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
+  - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 702306136}
   notEnoughMoneyText: {fileID: 1024814554}
@@ -3561,6 +3565,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
+  - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 702306136}
   notEnoughMoneyText: {fileID: 1024814554}
@@ -6404,6 +6409,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
+  - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 702306136}
   notEnoughMoneyText: {fileID: 1024814554}
@@ -7120,6 +7126,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
+  - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 702306136}
   notEnoughMoneyText: {fileID: 1024814554}
@@ -7223,6 +7230,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
+  - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 702306136}
   notEnoughMoneyText: {fileID: 1024814554}
@@ -7800,6 +7808,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
+  - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 702306136}
   notEnoughMoneyText: {fileID: 1024814554}
@@ -10195,6 +10204,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
+  - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 702306136}
   notEnoughMoneyText: {fileID: 1024814554}
@@ -11324,6 +11334,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
+  - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 702306136}
   notEnoughMoneyText: {fileID: 1024814554}
@@ -13677,6 +13688,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
+  - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 702306136}
   notEnoughMoneyText: {fileID: 1024814554}
@@ -13780,6 +13792,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
+  - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 702306136}
   notEnoughMoneyText: {fileID: 1024814554}
@@ -14572,6 +14585,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
+  - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 702306136}
   notEnoughMoneyText: {fileID: 1024814554}

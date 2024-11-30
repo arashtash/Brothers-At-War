@@ -632,6 +632,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   - {fileID: 2279124186427208184, guid: 00b7c727f1b33cc46bdceef3cbb37ea8, type: 3}
+  - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
   notEnoughMoneyText: {fileID: 1064039957}
@@ -1382,20 +1383,15 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 157328864514438139, guid: 4d580ed54c4de7b478fd422bd9226010, type: 3}
-      propertyPath: m_fontColor.b
-      value: 0.36037737
-      objectReference: {fileID: 0}
-    - target: {fileID: 157328864514438139, guid: 4d580ed54c4de7b478fd422bd9226010, type: 3}
-      propertyPath: m_fontColor.g
-      value: 0.8853993
-      objectReference: {fileID: 0}
-    - target: {fileID: 157328864514438139, guid: 4d580ed54c4de7b478fd422bd9226010, type: 3}
-      propertyPath: m_fontColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 157328864514438139, guid: 4d580ed54c4de7b478fd422bd9226010, type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4284277503
+      propertyPath: m_text
+      value: 'Press the following number to build a tower
+
+        [1] Archer Tower
+
+        [2]
+        Cannon
+
+        [3] Warding Tower'
       objectReference: {fileID: 0}
     - target: {fileID: 4489118288912267725, guid: 4d580ed54c4de7b478fd422bd9226010, type: 3}
       propertyPath: m_Name
@@ -1480,10 +1476,6 @@ PrefabInstance:
     - target: {fileID: 4797371805536714708, guid: 4d580ed54c4de7b478fd422bd9226010, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8707717558571270773, guid: 4d580ed54c4de7b478fd422bd9226010, type: 3}
-      propertyPath: m_Name
-      value: ErrorMessage
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1695,6 +1687,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   - {fileID: 2279124186427208184, guid: 00b7c727f1b33cc46bdceef3cbb37ea8, type: 3}
+  - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
   notEnoughMoneyText: {fileID: 1064039957}
@@ -2181,6 +2174,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   - {fileID: 2279124186427208184, guid: 00b7c727f1b33cc46bdceef3cbb37ea8, type: 3}
+  - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
   notEnoughMoneyText: {fileID: 1064039957}
@@ -3007,6 +3001,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   - {fileID: 2279124186427208184, guid: 00b7c727f1b33cc46bdceef3cbb37ea8, type: 3}
+  - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
   notEnoughMoneyText: {fileID: 1064039957}
@@ -3153,6 +3148,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   - {fileID: 2279124186427208184, guid: 00b7c727f1b33cc46bdceef3cbb37ea8, type: 3}
+  - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
   notEnoughMoneyText: {fileID: 1064039957}
@@ -3253,6 +3249,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   - {fileID: 2279124186427208184, guid: 00b7c727f1b33cc46bdceef3cbb37ea8, type: 3}
+  - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
   notEnoughMoneyText: {fileID: 1064039957}
@@ -3657,6 +3654,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   - {fileID: 2279124186427208184, guid: 00b7c727f1b33cc46bdceef3cbb37ea8, type: 3}
+  - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
   notEnoughMoneyText: {fileID: 1064039957}
@@ -4347,6 +4345,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 3830132320698036782, guid: 9a5dba7fe30eb7e41ab4a159cdb45f16, type: 3}
   - {fileID: 2279124186427208184, guid: 00b7c727f1b33cc46bdceef3cbb37ea8, type: 3}
+  - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
   notEnoughMoneyText: {fileID: 1064039957}
