@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 19
+  controlID: 52
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -192,8 +192,8 @@ MonoBehaviour:
     y: 0
     width: 352
     height: 547
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -396,7 +396,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs_F
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -404,16 +404,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - Assets/Prefabs_F
+  - Assets
   m_LastFoldersGridSize: 57
   m_LastProjectPath: C:\Users\lprho\Brothers-At-War
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 228.50012}
-    m_SelectedIDs: ec840000
-    m_LastClickedID: 34028
-    m_ExpandedIDs: 000000006084000062840000
+    scrollPos: {x: 0, y: 245}
+    m_SelectedIDs: c27c0000
+    m_LastClickedID: 31938
+    m_ExpandedIDs: 00000000c27c0000c47c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -441,7 +441,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006084000062840000
+    m_ExpandedIDs: 00000000c27c0000c47c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -468,8 +468,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300009c740000645c0000000000005a5c0000565f0000be5c00008e1703006c5d0000cc740000e65d0000f25d0000f460000064620000c6630000da62000002630000bc6f0000ea7c000026870000
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c62300009c740000645c0000000000005a5c0000565f0000be5c00008e1703006c5d0000cc740000e65d0000f25d0000f460000064620000c6630000da62000002630000bc6f0000ea7c000026870000c6cf0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -533,10 +533,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 128}
-      m_SelectedIDs: be470100
-      m_LastClickedID: 83902
-      m_ExpandedIDs: 98dbfeff6ce9feff4203ffffda1bffff422bffffb83cffff7e5effffe076ffffc679ffffdcc8ffff6cd0ffffa6e2ffff00fbffffa0850000c09a0000d49a0000e69a0000ec9a0000f49a00001c9b0000489b0000549b0000589b00005c9b0000629b0000949b0000d69b0000d89b0000f09b0000a2310100a8310100e6310100123201001a320100463201005a32010098320100a8320100ae320100c6320100d23201000e330100263301007833010098330100a0330100a4330100a8330100c4440100004501003a45010058450100664501007a4501007e45010092450100b64501001446010042460100b24601002a4701003c47010046470100824701008647010096470100be470100c2470100f4470100f8470100fc47010004480100
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: d4c1fbff54c2fbff3ed1fbff20dafbfffae3fbff1ee4fbffce0ffcff04a8fcffa4a8fcff22b6fdff76c6fdffb4d2fdffac8effffc89fffffbca9ffff32acffffe2b8ffffb4bbffff5abcffff4ac5ffffdcd5ffff94faffff3066000004820000facd0000bad00000d8d0000046dd00002cec000076ed0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -942,9 +942,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 340.29715, y: 80.514015, z: 549.8838}
+    m_Target: {x: 877.772, y: 25.84494, z: -394.3868}
     speed: 2
-    m_Value: {x: 340.29715, y: 80.514015, z: 549.8838}
+    m_Value: {x: 877.772, y: 25.84494, z: -394.3868}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -990,17 +990,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0607602, y: 0.624165, z: -0.048783824, w: 0.7773988}
+    m_Target: {x: -0.1726797, y: -0.4601587, z: 0.091751315, w: -0.86603653}
     speed: 2
-    m_Value: {x: 0.06076012, y: 0.62416416, z: -0.04878376, w: 0.7773978}
+    m_Value: {x: -0.17267954, y: -0.46015826, z: 0.091751225, w: -0.8660357}
   m_Size:
-    m_Target: 6.6329637
+    m_Target: 232.57365
     speed: 2
-    m_Value: 6.6329637
+    m_Value: 232.57365
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
     m_Speed: 1.1799101
     m_SpeedNormalized: 0.58974993
