@@ -1,6 +1,8 @@
 How to play:
 
-The build was too large to store on git. If you want to use a build instead of the settings in Unity create a build with the scenes in this order.
+The build was too large to store on git, so it was put in our submission folder, if you want to create the build from unity editor instead you can do so with the following insturctions.
+
+If you want to use a build instead of the settings in Unity create a build with the scenes in this order.
 Main  Menu
 Level1
 Level2
