@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|c:\\users\\arash\\onedrive\\desktop\\unity\\project\\brothers-at-war\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|c:\\users\\arash\\onedrive\\desktop\\unity\\project\\brothers-at-war\\assets\\scripts\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\assets\\scripts\\mastergamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mastergamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|c:\\users\\arash\\onedrive\\desktop\\unity\\project\\brothers-at-war\\assets\\scripts\\enemymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\assets\\scripts\\economymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\economymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\assets\\scripts\\wavecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wavecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\assets\\scripts\\enemymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\assets\\scripts\\orcmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\orcmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\assets\\scripts\\wavecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wavecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\assets\\scripts\\castlestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\assets\\buildzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|solutionrelative:assets\\buildzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\assets\\scripts\\economymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\economymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E288F28-79F9-0721-371B-14FF3AA4F433}|Assembly-CSharp.csproj|C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,19 +55,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAIwKwAAAAAAAAAAAAAAA==",
+              "Title": "PlayerControl.cs",
+              "DocumentMoniker": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\Assets\\Scripts\\PlayerControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControl.cs",
+              "ToolTip": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\Assets\\Scripts\\PlayerControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerControl.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T15:40:48.051Z",
+              "WhenOpened": "2024-12-01T22:30:21.997Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MasterGameManager.cs",
+              "DocumentMoniker": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\Assets\\Scripts\\MasterGameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MasterGameManager.cs",
+              "ToolTip": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\Assets\\Scripts\\MasterGameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MasterGameManager.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAkwDwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T19:24:42.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:40:48.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "enemyMove.cs",
               "DocumentMoniker": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\Assets\\Scripts\\enemyMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\enemyMove.cs",
@@ -67,12 +99,11 @@
               "RelativeToolTip": "Assets\\Scripts\\enemyMove.cs",
               "ViewState": "AgIAAFwAAAAAAAAAAADwv2wAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T23:02:48.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T23:02:48.335Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "orcMove.cs",
               "DocumentMoniker": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\Assets\\Scripts\\orcMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\orcMove.cs",
@@ -84,19 +115,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "waveCreator.cs",
               "DocumentMoniker": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\Assets\\Scripts\\waveCreator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\waveCreator.cs",
               "ToolTip": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\Assets\\Scripts\\waveCreator.cs",
               "RelativeToolTip": "Assets\\Scripts\\waveCreator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T22:59:45.944Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "CastleStats.cs",
               "DocumentMoniker": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\Assets\\Scripts\\CastleStats.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CastleStats.cs",
@@ -108,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "BuildZone.cs",
               "DocumentMoniker": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\Assets\\BuildZone.cs",
               "RelativeDocumentMoniker": "Assets\\BuildZone.cs",
@@ -120,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "EnemyAI.cs",
               "DocumentMoniker": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\Assets\\Scripts\\EnemyAI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAI.cs",
@@ -132,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "EconomyManager.cs",
               "DocumentMoniker": "C:\\Users\\arash\\OneDrive\\Desktop\\Unity\\Project\\Brothers-At-War\\Assets\\Scripts\\EconomyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EconomyManager.cs",

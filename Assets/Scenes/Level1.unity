@@ -637,6 +637,11 @@ MonoBehaviour:
   playerInRange: 0
   currentMoneyText: {fileID: 1078935373}
   notEnoughMoneyText: {fileID: 1064039957}
+--- !u!4 &292978918 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6283243083907243141, guid: 7b89d267ef0b7cf418102c6fd06c0bfe, type: 3}
+  m_PrefabInstance: {fileID: 1424765608}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &303139157
 GameObject:
   m_ObjectHideFlags: 0
@@ -2567,6 +2572,10 @@ PrefabInstance:
       propertyPath: power
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 8376006857185506867, guid: 7b89d267ef0b7cf418102c6fd06c0bfe, type: 3}
+      propertyPath: cameraTransform
+      value: 
+      objectReference: {fileID: 292978918}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -3410,11 +3419,7 @@ MonoBehaviour:
   - {fileID: 6019307668791469718, guid: be5046b06511f7344ad18da22f87aa9c, type: 3}
   - {fileID: 6019307668791469718, guid: 54e236dfefe963f4d96fa5f16888b160, type: 3}
   - {fileID: 6019307668791469718, guid: 3053b888d75544547b2a79ab54e3099e, type: 3}
-  buildPhaseUI: {fileID: 1397239003}
   spawnPoint: {fileID: 1119693775}
-  economyManager: {fileID: 344469612}
-  levelTransitionCanvas: {fileID: 1573419629}
-  gameCompleteCanvas: {fileID: 1473829903}
 --- !u!4 &1676956615
 Transform:
   m_ObjectHideFlags: 0
@@ -3998,6 +4003,56 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4154131212499033000, guid: 312743d386469c24e84ad25bcc9d2689, type: 3}
   m_PrefabInstance: {fileID: 8939420603297718461}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1966079905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1966079907}
+  - component: {fileID: 1966079906}
+  m_Layer: 0
+  m_Name: Master Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1966079906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966079905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93546dd1f7e282a4fb3d610ca28815f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManagers:
+  - {fileID: 1676956614}
+  economyManager: {fileID: 344469612}
+  buildPhaseUI: {fileID: 1397239003}
+  levelTransitionCanvas: {fileID: 1573419629}
+  gameCompleteCanvas: {fileID: 1473829903}
+--- !u!4 &1966079907
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966079905}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 537.468, y: 145.60503, z: 438.7208}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1991590270
 GameObject:
   m_ObjectHideFlags: 0
@@ -4710,3 +4765,4 @@ SceneRoots:
   - {fileID: 1753473939}
   - {fileID: 1573419628}
   - {fileID: 1473829902}
+  - {fileID: 1966079907}

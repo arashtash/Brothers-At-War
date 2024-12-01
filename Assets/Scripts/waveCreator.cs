@@ -35,7 +35,7 @@ public class waveCreator : MonoBehaviour
         //check if all spawned enemies are destroyed
         if (enemyCounter == (enemies.Length) && AllEnemiesDestroyed())
         {
-            gameManager.waveOver();
+            gameManager.WaveOver();
             Destroy(gameObject);
         }
     }

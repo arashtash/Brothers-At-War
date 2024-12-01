@@ -4203,11 +4203,7 @@ MonoBehaviour:
   - {fileID: 6019307668791469718, guid: c0a9fef91adc9d8469d6292247a7feb0, type: 3}
   - {fileID: 6019307668791469718, guid: e6c6750700c877349aaf2dda1dd8f5c4, type: 3}
   - {fileID: 6019307668791469718, guid: b144da6f710408a448771bfc42684ce8, type: 3}
-  buildPhaseUI: {fileID: 24007563}
   spawnPoint: {fileID: 222071392}
-  economyManager: {fileID: 376370164}
-  levelTransitionCanvas: {fileID: 1138523293}
-  gameCompleteCanvas: {fileID: 2098098137}
 --- !u!4 &554179026
 Transform:
   m_ObjectHideFlags: 0
@@ -7894,11 +7890,7 @@ MonoBehaviour:
   - {fileID: 6019307668791469718, guid: f5fc02e28807ac64ebc2a065e3b7d919, type: 3}
   - {fileID: 6019307668791469718, guid: 5bfda1127ea9d1e4da7240b8d28048e6, type: 3}
   - {fileID: 6019307668791469718, guid: c0d02537c4f256640a02d8aa5fe3cca7, type: 3}
-  buildPhaseUI: {fileID: 24007563}
   spawnPoint: {fileID: 1435714220}
-  economyManager: {fileID: 376370164}
-  levelTransitionCanvas: {fileID: 1138523293}
-  gameCompleteCanvas: {fileID: 2098098137}
 --- !u!4 &1122426079
 Transform:
   m_ObjectHideFlags: 0
@@ -8562,11 +8554,7 @@ MonoBehaviour:
   - {fileID: 6019307668791469718, guid: f8866987c2c2d5c45a35b30a0ac7db8d, type: 3}
   - {fileID: 6019307668791469718, guid: d08dcaad288580d42ab07a8640f5900f, type: 3}
   - {fileID: 6019307668791469718, guid: 5f29b02cd92e3f440ae476e62afb6e56, type: 3}
-  buildPhaseUI: {fileID: 24007563}
   spawnPoint: {fileID: 2048790408}
-  economyManager: {fileID: 376370164}
-  levelTransitionCanvas: {fileID: 1138523293}
-  gameCompleteCanvas: {fileID: 2098098137}
 --- !u!4 &1208936477
 Transform:
   m_ObjectHideFlags: 0
@@ -9174,6 +9162,58 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8107190456209775893, guid: 57ef16ee7712da6409e8836bf6001e3c, type: 3}
   m_PrefabInstance: {fileID: 1285645763}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1293211860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1293211862}
+  - component: {fileID: 1293211861}
+  m_Layer: 0
+  m_Name: Master Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1293211861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293211860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93546dd1f7e282a4fb3d610ca28815f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManagers:
+  - {fileID: 1122426078}
+  - {fileID: 1208936476}
+  - {fileID: 554179025}
+  economyManager: {fileID: 376370164}
+  buildPhaseUI: {fileID: 24007563}
+  levelTransitionCanvas: {fileID: 1138523293}
+  gameCompleteCanvas: {fileID: 2098098137}
+--- !u!4 &1293211862
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293211860}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 297.29932, y: 277.52347, z: 175.63559}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1340390892
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15034,3 +15074,4 @@ SceneRoots:
   - {fileID: 222071393}
   - {fileID: 1138523292}
   - {fileID: 2098098136}
+  - {fileID: 1293211862}

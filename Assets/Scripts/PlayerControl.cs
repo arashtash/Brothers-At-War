@@ -21,6 +21,7 @@ public class PlayerControl : MonoBehaviour
 
     void Start()
     {
+        Cursor.visible = false;
         animator = GetComponent<Animator>();
         controller = GetComponent<CharacterController>();
         isShift = false;
