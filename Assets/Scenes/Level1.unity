@@ -1199,7 +1199,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1759507523}
-  - {fileID: 1451486965}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2604,16 +2603,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1451486964}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 525251396}
+  m_Father: {fileID: 1759507523}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 342, y: 160}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -225, y: -13}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1451486966
@@ -3721,12 +3720,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1451486965}
   m_Father: {fileID: 525251396}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 467, y: 148}
+  m_AnchoredPosition: {x: 464, y: 197}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1759507524
@@ -4494,11 +4494,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2571192338350043085, guid: ea1f084809fa7f342828d580c2f18d8a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.59
+      value: -2.44
       objectReference: {fileID: 0}
     - target: {fileID: 2571192338350043085, guid: ea1f084809fa7f342828d580c2f18d8a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 11.57
+      value: 11.39
       objectReference: {fileID: 0}
     - target: {fileID: 3481642420840670319, guid: ea1f084809fa7f342828d580c2f18d8a, type: 3}
       propertyPath: m_LocalScale.x
@@ -4519,6 +4519,14 @@ PrefabInstance:
     - target: {fileID: 4565131558802142262, guid: ea1f084809fa7f342828d580c2f18d8a, type: 3}
       propertyPath: m_Name
       value: Castle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333276220245783399, guid: ea1f084809fa7f342828d580c2f18d8a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333276220245783399, guid: ea1f084809fa7f342828d580c2f18d8a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.27
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

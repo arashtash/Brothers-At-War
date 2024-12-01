@@ -1526,8 +1526,8 @@ MonoBehaviour:
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
   - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
-  currentMoneyText: {fileID: 702306136}
-  notEnoughMoneyText: {fileID: 1024814554}
+  currentMoneyText: {fileID: 837334071}
+  notEnoughMoneyText: {fileID: 2018101233}
 --- !u!1 &133871161
 GameObject:
   m_ObjectHideFlags: 0
@@ -1950,8 +1950,8 @@ MonoBehaviour:
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
   - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
-  currentMoneyText: {fileID: 702306136}
-  notEnoughMoneyText: {fileID: 1024814554}
+  currentMoneyText: {fileID: 837334071}
+  notEnoughMoneyText: {fileID: 2018101233}
 --- !u!1 &185420310
 GameObject:
   m_ObjectHideFlags: 0
@@ -2196,8 +2196,8 @@ MonoBehaviour:
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
   - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
-  currentMoneyText: {fileID: 702306136}
-  notEnoughMoneyText: {fileID: 1024814554}
+  currentMoneyText: {fileID: 837334071}
+  notEnoughMoneyText: {fileID: 2018101233}
 --- !u!1 &222071392
 GameObject:
   m_ObjectHideFlags: 0
@@ -2331,8 +2331,8 @@ MonoBehaviour:
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
   - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
-  currentMoneyText: {fileID: 702306136}
-  notEnoughMoneyText: {fileID: 1024814554}
+  currentMoneyText: {fileID: 837334071}
+  notEnoughMoneyText: {fileID: 2018101233}
 --- !u!114 &280492201 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1867184503281830769, guid: 82cf124bca10469448a995c55439020d, type: 3}
@@ -2623,7 +2623,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1513679884}
-  - {fileID: 1175451371}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3567,8 +3566,8 @@ MonoBehaviour:
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
   - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
-  currentMoneyText: {fileID: 702306136}
-  notEnoughMoneyText: {fileID: 1024814554}
+  currentMoneyText: {fileID: 837334071}
+  notEnoughMoneyText: {fileID: 2018101233}
 --- !u!1001 &489395326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5500,7 +5499,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8107190456209775893, guid: 57ef16ee7712da6409e8836bf6001e3c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.26
+      value: 2.4
       objectReference: {fileID: 0}
     - target: {fileID: 8107190456209775893, guid: 57ef16ee7712da6409e8836bf6001e3c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5508,7 +5507,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8107190456209775893, guid: 57ef16ee7712da6409e8836bf6001e3c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.51
+      value: -4.25
       objectReference: {fileID: 0}
     - target: {fileID: 8107190456209775893, guid: 57ef16ee7712da6409e8836bf6001e3c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6020,6 +6019,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d580ed54c4de7b478fd422bd9226010, type: 3}
+--- !u!114 &837334071 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5192708841457951875, guid: 4d580ed54c4de7b478fd422bd9226010, type: 3}
+  m_PrefabInstance: {fileID: 832093936}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &842315099
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6542,8 +6552,8 @@ MonoBehaviour:
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
   - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
-  currentMoneyText: {fileID: 702306136}
-  notEnoughMoneyText: {fileID: 1024814554}
+  currentMoneyText: {fileID: 837334071}
+  notEnoughMoneyText: {fileID: 2018101233}
 --- !u!1 &907240707
 GameObject:
   m_ObjectHideFlags: 0
@@ -7259,8 +7269,8 @@ MonoBehaviour:
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
   - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
-  currentMoneyText: {fileID: 702306136}
-  notEnoughMoneyText: {fileID: 1024814554}
+  currentMoneyText: {fileID: 837334071}
+  notEnoughMoneyText: {fileID: 2018101233}
 --- !u!1001 &1008632346
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7363,19 +7373,8 @@ MonoBehaviour:
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
   - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
-  currentMoneyText: {fileID: 702306136}
-  notEnoughMoneyText: {fileID: 1024814554}
---- !u!114 &1024814554 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7113887299809939238, guid: 82cf124bca10469448a995c55439020d, type: 3}
-  m_PrefabInstance: {fileID: 207445542}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  currentMoneyText: {fileID: 837334071}
+  notEnoughMoneyText: {fileID: 2018101233}
 --- !u!1001 &1031091399
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7943,8 +7942,8 @@ MonoBehaviour:
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
   - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
-  currentMoneyText: {fileID: 702306136}
-  notEnoughMoneyText: {fileID: 1024814554}
+  currentMoneyText: {fileID: 837334071}
+  notEnoughMoneyText: {fileID: 2018101233}
 --- !u!1001 &1138523292
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8294,16 +8293,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1175451370}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 333505816}
+  m_Father: {fileID: 1513679884}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 342, y: 160}
+  m_AnchoredPosition: {x: -125.00006, y: 12.0000305}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1175451372
@@ -10365,12 +10364,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1175451371}
   m_Father: {fileID: 333505816}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 467, y: 148}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -72, y: -114}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1522306350 stripped
@@ -10443,8 +10443,8 @@ MonoBehaviour:
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
   - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
-  currentMoneyText: {fileID: 702306136}
-  notEnoughMoneyText: {fileID: 1024814554}
+  currentMoneyText: {fileID: 837334071}
+  notEnoughMoneyText: {fileID: 2018101233}
 --- !u!1001 &1548611042
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11573,8 +11573,8 @@ MonoBehaviour:
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
   - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
-  currentMoneyText: {fileID: 702306136}
-  notEnoughMoneyText: {fileID: 1024814554}
+  currentMoneyText: {fileID: 837334071}
+  notEnoughMoneyText: {fileID: 2018101233}
 --- !u!1001 &1711112961
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13927,8 +13927,8 @@ MonoBehaviour:
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
   - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
-  currentMoneyText: {fileID: 702306136}
-  notEnoughMoneyText: {fileID: 1024814554}
+  currentMoneyText: {fileID: 837334071}
+  notEnoughMoneyText: {fileID: 2018101233}
 --- !u!1001 &2002054047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14031,8 +14031,8 @@ MonoBehaviour:
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
   - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
-  currentMoneyText: {fileID: 702306136}
-  notEnoughMoneyText: {fileID: 1024814554}
+  currentMoneyText: {fileID: 837334071}
+  notEnoughMoneyText: {fileID: 2018101233}
 --- !u!1001 &2015049546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14107,6 +14107,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 41dc84019e9376b46908ba7afdd1d15e, type: 3}
   m_PrefabInstance: {fileID: 2015049546}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2018101233 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5873361405868544507, guid: 4d580ed54c4de7b478fd422bd9226010, type: 3}
+  m_PrefabInstance: {fileID: 832093936}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2019947166
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14926,8 +14937,8 @@ MonoBehaviour:
   - {fileID: 2279124186427208184, guid: 98f9060721d089b4ca0f3370dc2566c6, type: 3}
   - {fileID: 1863283507173261268, guid: 5525089847697944abdcca7bb98c313a, type: 3}
   playerInRange: 0
-  currentMoneyText: {fileID: 702306136}
-  notEnoughMoneyText: {fileID: 1024814554}
+  currentMoneyText: {fileID: 837334071}
+  notEnoughMoneyText: {fileID: 2018101233}
 --- !u!1001 &2146243477
 PrefabInstance:
   m_ObjectHideFlags: 0
