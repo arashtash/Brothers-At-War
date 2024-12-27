@@ -1,3 +1,9 @@
+# Thrones of Amunzar
+
+Throne of Amunzar: Brothers at War is a hybrid third-person hack-and-slash and tower defense game developed using Unity and C#. The game features three levels set in distinct environments (forest, desert, and snowy mountains) and involves defending a castle from waves of enemies. Players build defensive towers in predefined locations and actively fight enemies using an animated player character. The levels increase in complexity, introducing additional enemy lanes and more waves as the player progresses.
+
+The game incorporates a robust economic upgrade system that allows players to dynamically grow their population, affecting tax income and other revenue sources like mining, trade, and agriculture. Players can use this income to build three different types of animated towers, each with unique abilities, or invest in their economy for future benefits. Additional features include animated player attacks and movement, unique enemy animations, and dynamic environmental design.
+
 How to play:
 
 The build was too large to store on git, so it was put in our submission folder, if you want to create the build from unity editor instead you can do so with the following insturctions.
@@ -11,13 +17,7 @@ Level3
 and then run that build. Otherwise you can just use the unity editor to run the game.
 
 
-WASD or arrow keys to move.
+How to play:
+Press and hold W/A/S/D or arrows to move. Hold Left-Shift to run. Press Space to jump; Left Click to attack; B to open/close the economy menu.
 
-
-
-KNOWN BUGS:
-
-In level 2 and 3 the multiple lanes spawn correctly for wave 1, but for all future waves they only spawn on the last wave.
-
-When you hit an enemy or collide with them incorrectly sometimes they fly away with a ton of speed. If they happen to fall off the map the wave becomes unbeatable and you have to restart the game, most prominent on Level1.
 
