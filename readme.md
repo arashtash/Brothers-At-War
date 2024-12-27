@@ -1,3 +1,7 @@
+Thrones of Amunzar
+Copyright (C) 2024 Arash Tashakori
+arashtkr@gmail.com
+
 # Thrones of Amunzar #
 
 Throne of Amunzar: Brothers at War is a hybrid third-person hack-and-slash and tower defense game developed using Unity and C#. The game features three levels set in distinct environments (forest, desert, and snowy mountains) and involves defending a castle from waves of enemies. Players build defensive towers in predefined locations and actively fight enemies using an animated player character. The levels increase in complexity, introducing additional enemy lanes and more waves as the player progresses.
